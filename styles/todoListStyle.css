@@ -1,0 +1,156 @@
+
+  *{
+    box-sizing: border-box;
+ 
+  
+  }
+  body{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+  }
+ 
+  .Page{
+
+    width: 100%;
+ 
+  }
+
+  .Box{
+    width: 100%;
+    height: 300px;
+    
+  }
+
+
+ .TableTask{
+   
+    width: 250px;
+    margin: 0 auto;
+ }
+ 
+ 
+  h1{
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(5, 3, 3);
+    -webkit-text-stroke: 2px black;
+   
+  }
+  
+
+ 
+ .task{
+    float: left;
+    text-align: center;
+    width: 100%;
+ }
+  
+  ul{
+  
+     font-family:Ubuntu,Helvetica,sans-serif;
+    list-style-type: none;
+
+    -ms-flex-align:end;
+    
+
+
+   padding:0; 
+   /* text-shadow: 2px 2px 5px red; */
+  }
+  
+  
+  input{
+    width:85%;
+    height:40px;
+    border-radius: 5px;
+    border-color: transparent transparent transparent;
+    font-size: 15px;
+   
+  }
+  
+  .ContainerBox{
+    /* position:relative; */
+   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  li{
+  
+    /* text-shadow: 2px 2px 5px red; */
+    box-shadow: 2px 2px 1px 1px rgba(0,0,0,0.3); 
+    padding: 9px;
+    border-radius: 3px;
+   
+    margin-top:8px;
+    background-color:white;
+    text-align:center;
+    width:95%;
+    
+   
+    /* display: flex;
+    justify-content: flex-end; */
+  
+  }
+
+
+  
+  .check{
+    width:20px;
+    height:20px;
+    position: absolute;
+   
+    left:0px;
+    top:-2px;
+   
+    /* right: 44%; */
+    float:left;
+    background-color: red;
+    
+  }
+ 
+
+  h3{
+    text-align: center;
+  }
+  
+  button{
+  background-color:white;
+  width: 30;
+  height:20px;
+  border-radius:5px;
+  border: none;
+  }
+ 
+  
+.btnToAdd{
+
+    height: 40px;
+    width: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
