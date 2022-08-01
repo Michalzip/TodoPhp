@@ -22,34 +22,16 @@
                 <form method="post" action="../database/functions/addTask.php">
                     <input type="text" name="task"></input>
                     <button class='btnToAdd' name="add"><i class='fa fa-plus'></i></button>
-
                 </form>
-
-
                 <?php
 
-include '../view/task.php';
-
-
-?>
+                    include '../view/task.php';
+                ?>
             </div>
         </div>
     </div>
 
     </div>
-
-
-
-
-    <?php
-
-
-
-?>
-
-
-
-
     </div>
 
 </body>
