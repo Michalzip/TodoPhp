@@ -8,11 +8,8 @@ if (mysqli_num_rows($rows) == 0) {
 while ($row = mysqli_fetch_assoc($rows)) 
 {
 $id=$row['Id'];
-
 $updateButton="<button class='btn' onclick=location.href='../pages/todoUpdatePage.php?action=update&id=$id' name='edit'><i class='fa fa-edit'></i></button>";
-
 $deleteButton="<button  onclick=location.href='../database/functions/deleteTask.php?action=delete&id=$id' <i class='fa fa-trash'></i></button>";
-
 
 echo 
 "<ul> 
